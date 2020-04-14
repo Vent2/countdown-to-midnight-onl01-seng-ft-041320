@@ -7,4 +7,4 @@ number = 10
  if number <= 0
  "HAPPY NEW YEAR!"
  end
-end 
+end
