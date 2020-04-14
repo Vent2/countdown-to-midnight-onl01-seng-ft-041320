@@ -6,7 +6,9 @@ def countdown(number)
  "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep(countdown)
-  countdown == 1..5
+def countdown_with_sleep(number)
+  while number > 0
+      puts "#{number} SECOND(S)!"
+    end
   sleep 1
 end
