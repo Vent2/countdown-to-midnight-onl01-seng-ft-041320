@@ -5,7 +5,7 @@ number = 10
    number -= 1
  end
  while number <5 && number > 0
-   sleep 1 
+   sleep 1
  end
  if number == 0
  "HAPPY NEW YEAR!"
