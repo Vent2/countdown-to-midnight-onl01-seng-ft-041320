@@ -6,6 +6,7 @@ number = 10
  end
  while number == 5..1
    sleep 1
+ end
  if number == 0
  "HAPPY NEW YEAR!"
  end
