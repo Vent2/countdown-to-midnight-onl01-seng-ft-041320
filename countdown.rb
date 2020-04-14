@@ -4,8 +4,8 @@ number = 10
   puts "#{number} SECOND(S)!"
    number -= 1
  end
- when number == 5..1
-   sleep 1
+ while number <5 && number > 0
+   sleep 1 
  end
  if number == 0
  "HAPPY NEW YEAR!"
